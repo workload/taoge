@@ -1,7 +1,5 @@
-# from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-
 
 def add_north(ax, labelsize=16, loc_x=0.88, loc_y=0.85, width=0.05, height=0.13, pad=0.14,lw=1):
     """

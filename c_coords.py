@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import math
 
-
 class ChangeCoord(object):
     def __init__(self):
         """
@@ -89,7 +88,6 @@ class ChangeCoord(object):
                 index += 1
 
         return self.convert(mercartorX, mercartorY, f)
-
  
     def bd09_to_bd09mc(self, lng, lat):
         """
@@ -115,9 +113,6 @@ class ChangeCoord(object):
                 index += 1
 
         return self.convert(lng, lat, f)
-
-
-
 
     def gcj02_to_bd09(self, lng, lat):
         """
@@ -255,7 +250,6 @@ class ChangeCoord(object):
         :return:
         """
         return not (lng > 73.66 and lng < 135.05 and lat > 3.86 and lat < 53.55)
-
 
 if __name__ == '__main__':
     lon = 11915544.30

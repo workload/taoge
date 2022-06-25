@@ -9,7 +9,6 @@ def get_hex(shp, length, epsg_code):
     sh01 = gpd.read_file(shp)  # 读取上海市域界限
     sh01_m = sh01.to_crs(f'epsg:{epsg_code}')
 
-
     bds = [min(sh01_m.bounds.iloc[:,0]),min(sh01_m.bounds.iloc[:,1]),
        max(sh01_m.bounds.iloc[:,2]),max(sh01_m.bounds.iloc[:,3])]
        

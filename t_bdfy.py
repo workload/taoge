@@ -9,7 +9,6 @@ import requests
 import random
 from hashlib import md5
 
-
 def get_result(query,appid,appkey):
     # Set your own appid/appkey.
 
