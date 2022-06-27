@@ -11,7 +11,8 @@ from hashlib import md5
 
 def get_result(query,appid,appkey):
     # Set your own appid/appkey.
-
+    appid = ''
+    appkey = ''
     # For list of language codes, please refer to `https://api.fanyi.baidu.com/doc/21`
     from_lang = 'en'
     to_lang =  'zh'
